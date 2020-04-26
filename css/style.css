@@ -1,0 +1,465 @@
+body {
+  background-color: #f4f4f4; }
+
+#top {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #fff; }
+  #top #bar {
+    position: absolute;
+    z-index: 3;
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3; }
+    #top #bar #navbar {
+      height: 88px;
+      display: flex;
+      justify-content: center; }
+      #top #bar #navbar li, #top #bar #navbar #Carousel .libai, #top #Carousel #bar #navbar .libai {
+        float: left;
+        height: 100%;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #top #bar #navbar li a, #top #bar #navbar #Carousel .libai a, #top #Carousel #bar #navbar .libai a {
+          font-size: 13px;
+          color: #000; }
+    #top #bar .icon-oppo {
+      font-size: 80px; }
+    #top #bar .icon-shangcheng {
+      font-size: 25px; }
+    #top #bar #shopping {
+      display: none;
+      border: 0.5px solid #e4e4e4;
+      width: 250px;
+      height: auto;
+      background-color: #fff;
+      position: absolute;
+      right: -130px;
+      top: 80px; }
+      #top #bar #shopping p {
+        width: 100%;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        #top #bar #shopping p a {
+          color: #000; }
+  #top .Combobox1, #top .Combobox2, #top .Combobox3, #top .Combobox4, #top .Combobox5, #top .Combobox6 {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+    display: none; }
+    #top .Combobox1 li, #top .Combobox2 li, #top .Combobox3 li, #top .Combobox4 li, #top .Combobox5 li, #top .Combobox6 li, #top .Combobox1 #Carousel .libai, #top #Carousel .Combobox1 .libai, #top .Combobox2 #Carousel .libai, #top #Carousel .Combobox2 .libai, #top .Combobox3 #Carousel .libai, #top #Carousel .Combobox3 .libai, #top .Combobox4 #Carousel .libai, #top #Carousel .Combobox4 .libai, #top .Combobox5 #Carousel .libai, #top #Carousel .Combobox5 .libai, #top .Combobox6 #Carousel .libai, #top #Carousel .Combobox6 .libai {
+      height: 100%;
+      float: left;
+      display: none; }
+      #top .Combobox1 li a, #top .Combobox2 li a, #top .Combobox3 li a, #top .Combobox4 li a, #top .Combobox5 li a, #top .Combobox6 li a, #top .Combobox1 #Carousel .libai a, #top #Carousel .Combobox1 .libai a, #top .Combobox2 #Carousel .libai a, #top #Carousel .Combobox2 .libai a, #top .Combobox3 #Carousel .libai a, #top #Carousel .Combobox3 .libai a, #top .Combobox4 #Carousel .libai a, #top #Carousel .Combobox4 .libai a, #top .Combobox5 #Carousel .libai a, #top #Carousel .Combobox5 .libai a, #top .Combobox6 #Carousel .libai a, #top #Carousel .Combobox6 .libai a {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 100%; }
+      #top .Combobox1 li img, #top .Combobox2 li img, #top .Combobox3 li img, #top .Combobox4 li img, #top .Combobox5 li img, #top .Combobox6 li img, #top .Combobox1 #Carousel .libai img, #top #Carousel .Combobox1 .libai img, #top .Combobox2 #Carousel .libai img, #top #Carousel .Combobox2 .libai img, #top .Combobox3 #Carousel .libai img, #top #Carousel .Combobox3 .libai img, #top .Combobox4 #Carousel .libai img, #top #Carousel .Combobox4 .libai img, #top .Combobox5 #Carousel .libai img, #top #Carousel .Combobox5 .libai img, #top .Combobox6 #Carousel .libai img, #top #Carousel .Combobox6 .libai img {
+        width: 40%;
+        height: 40%; }
+  #top #Carousels {
+    width: 1519px;
+    height: auto;
+    overflow: hidden; }
+  #top #Carousel {
+    width: 9120px;
+    height: 600px;
+    position: relative; }
+    #top #Carousel li, #top #Carousel .libai {
+      width: 1520px;
+      float: left;
+      height: 100%;
+      position: relative; }
+      #top #Carousel li div, #top #Carousel .libai div {
+        width: 50%;
+        float: right;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1; }
+        #top #Carousel li div .liji, #top #Carousel .libai div .liji {
+          background: #059157;
+          width: 130px;
+          height: 36px;
+          border-radius: 18px;
+          border: none;
+          color: #ffffff;
+          text-align: center;
+          line-height: 36px; }
+        #top #Carousel li div p, #top #Carousel .libai div p {
+          margin: 20px 0;
+          text-align: center;
+          color: #000; }
+        #top #Carousel li div h1, #top #Carousel .libai div h1 {
+          color: #000;
+          text-align: center; }
+    #top #Carousel .libai {
+      color: #fff; }
+      #top #Carousel .libai h1 {
+        color: #fff; }
+      #top #Carousel .libai p {
+        color: #fff; }
+    #top #Carousel img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 0; }
+    #top #Carousel div {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1; }
+
+#centers {
+  width: 100%;
+  height: auto; }
+  #centers #center {
+    width: 1024px;
+    margin: 0 auto; }
+    #centers #center #big {
+      width: 100%;
+      height: auto; }
+      #centers #center #big .first {
+        width: 100%;
+        height: 550px;
+        background-size: 100%;
+        margin-top: 30px; }
+        #centers #center #big .first .but1 {
+          width: 80px;
+          height: 30px;
+          background: rgba(0, 198, 120, 0.15);
+          border: 1px solid #00c678;
+          color: #00c678;
+          margin-top: 20px;
+          margin-left: 20px; }
+        #centers #center #big .first .introduce {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          float: right; }
+          #centers #center #big .first .introduce .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            #centers #center #big .first .introduce .title div a {
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+              background: cornflowerblue;
+              margin: 20px 10px; }
+          #centers #center #big .first .introduce .price {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px; }
+            #centers #center #big .first .introduce .price button {
+              margin-top: 10px;
+              background: #059157;
+              width: 130px;
+              height: 36px;
+              border-radius: 18px;
+              border: none;
+              color: #ffffff; }
+      #centers #center #big .ber .introduce {
+        float: left; }
+    #centers #center #small {
+      width: 1024px;
+      height: auto; }
+      #centers #center #small .second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 20px; }
+        #centers #center #small .second .noe {
+          width: 47%;
+          height: 650px;
+          background-color: #fff;
+          margin-top: 20px;
+          margin-left: 10px;
+          position: relative;
+          margin: 0 auto; }
+          #centers #center #small .second .noe img {
+            width: 100%;
+            height: 55%;
+            margin-top: 20px; }
+          #centers #center #small .second .noe .hint {
+            width: 60px;
+            height: 20px;
+            padding: 3px 5px;
+            border: 1px solid #f79a47;
+            color: #f79a47;
+            background: rgba(247, 154, 71, 0.15);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            font-size: 13px; }
+          #centers #center #small .second .noe .xia {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            bottom: 40px; }
+            #centers #center #small .second .noe .xia div {
+              margin: 20px 0; }
+              #centers #center #small .second .noe .xia div a {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: none;
+                margin-left: 10px;
+                background-color: crimson; }
+            #centers #center #small .second .noe .xia p {
+              margin: 20px 0; }
+            #centers #center #small .second .noe .xia .p1 {
+              font-size: 25px; }
+            #centers #center #small .second .noe .xia .p2 {
+              font-size: 14px; }
+            #centers #center #small .second .noe .xia .p3 {
+              font-size: 18px; }
+
+#parts {
+  margin: 20px 0; }
+  #parts #part {
+    width: 1024px;
+    position: relative;
+    color: #000; }
+    #parts #part a {
+      color: #000; }
+    #parts #part .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      #parts #part .nav span {
+        font-size: 22px; }
+      #parts #part .nav ul {
+        float: right; }
+        #parts #part .nav ul li, #parts #part .nav ul #top #Carousel .libai, #top #Carousel #parts #part .nav ul .libai {
+          float: left;
+          margin-right: 20px; }
+          #parts #part .nav ul li a, #parts #part .nav ul #top #Carousel .libai a, #top #Carousel #parts #part .nav ul .libai a {
+            display: inline-block;
+            font-size: 14px;
+            background: #fff;
+            text-align: center;
+            padding: 5px 20px;
+            border-radius: 15px;
+            color: #000; }
+    #parts #part #one {
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      top: 40px;
+      left: 0px; }
+      #parts #part #one .wu {
+        margin: 0; }
+      #parts #part #one .yi {
+        background: #ffffff;
+        height: 90%;
+        float: left;
+        width: 46%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px; }
+        #parts #part #one .yi nav {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          position: absolute;
+          z-index: 1; }
+          #parts #part #one .yi nav .p1 {
+            font-size: 23px;
+            margin-left: 20px; }
+          #parts #part #one .yi nav .p2 {
+            font-size: 20px;
+            margin-top: 10px; }
+        #parts #part #one .yi img {
+          width: 100%;
+          height: 360px;
+          margin-top: 0; }
+        #parts #part #one .yi button {
+          position: absolute;
+          z-index: 1;
+          top: 15px;
+          margin: 20px 0 0 20px;
+          color: #00c678;
+          border: 1px solid #00c678;
+          background-color: rgba(0, 198, 120, 0.15);
+          width: 65px;
+          height: 25px;
+          font-size: 14px; }
+      #parts #part #one .er {
+        margin-left: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+        width: 22%;
+        height: 90%;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; }
+        #parts #part #one .er .yi {
+          width: 80%; }
+        #parts #part #one .er button {
+          display: none; }
+        #parts #part #one .er img {
+          width: 80%;
+          height: 50%;
+          margin-top: -20px; }
+        #parts #part #one .er p {
+          font-size: 17px;
+          margin-top: 260px;
+          width: 100%;
+          text-align: center; }
+        #parts #part #one .er .p {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+        #parts #part #one .er nav {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          position: absolute;
+          z-index: 1;
+          margin-left: -10px; }
+          #parts #part #one .er nav .p1 {
+            font-size: 16px;
+            margin-left: 21px; }
+          #parts #part #one .er nav .p2 {
+            font-size: 16px;
+            margin-top: 10px; }
+    #parts #part .headset {
+      display: none; }
+    #parts #part .USB {
+      display: none; }
+    #parts #part .power_bank {
+      display: none; }
+    #parts #part .set_meal {
+      display: none; }
+    #parts #part .phone_shell {
+      display: none; }
+    #parts #part .rests {
+      display: none; }
+
+#bottoms {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 800px;
+  background: #fff; }
+  #bottoms #botm {
+    width: 1024px;
+    height: auto; }
+    #bottoms #botm #btop {
+      padding: 40px 0;
+      border-bottom: 1px #999 solid; }
+      #bottoms #botm #btop ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        #bottoms #botm #btop ul li, #bottoms #botm #btop ul #top #Carousel .libai, #top #Carousel #bottoms #botm #btop ul .libai {
+          float: left;
+          margin-left: 20px;
+          color: #000; }
+          #bottoms #botm #btop ul li a, #bottoms #botm #btop ul #top #Carousel .libai a, #top #Carousel #bottoms #botm #btop ul .libai a {
+            color: #000;
+            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            #bottoms #botm #btop ul li a i, #bottoms #botm #btop ul #top #Carousel .libai a i, #top #Carousel #bottoms #botm #btop ul .libai a i {
+              color: #000;
+              font-size: 30px;
+              margin-bottom: 10px; }
+  #bottoms #bcenter {
+    padding-bottom: 30px;
+    border-bottom: 1px #999999 solid;
+    width: 1042px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #bottoms #bcenter .left {
+      float: left;
+      display: flex;
+      justify-content: space-between;
+      width: 62%; }
+      #bottoms #bcenter .left .tui {
+        font-size: 14px;
+        color: #000; }
+      #bottoms #bcenter .left ul li, #bottoms #bcenter .left ul #top #Carousel .libai, #top #Carousel #bottoms #bcenter .left ul .libai {
+        margin-top: 10px;
+        text-align: center; }
+        #bottoms #bcenter .left ul li a, #bottoms #bcenter .left ul #top #Carousel .libai a, #top #Carousel #bottoms #bcenter .left ul .libai a {
+          font-size: 12px;
+          color: #999999; }
+    #bottoms #bcenter #rigth {
+      height: 100%; }
+      #bottoms #bcenter #rigth a {
+        display: inline-block;
+        width: 143px;
+        height: 43px;
+        background: #464646;
+        border-radius: 27px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  #bottoms #bbom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #999999;
+    padding-bottom: 50px; }

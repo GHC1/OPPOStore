@@ -1,0 +1,28 @@
+@charset "utf-8";
+body,html,p,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,ul,li,ol,fieldset,img,select,dd{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+li,ol{
+	list-style:none;
+}
+img,fieldset{
+	border:none;
+}
+.clrearfn:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+b{
+	font-weight:normal;
+}
+body{
+	font-size:16px;
+}

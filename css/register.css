@@ -1,0 +1,119 @@
+body {
+  background-color: #f7f7f7; }
+
+#title {
+  overflow: hidden; }
+  #title ul {
+    overflow: hidden;
+    padding: 20px 0px; }
+    #title ul li {
+      float: left;
+      margin-right: 20px; }
+      #title ul li a {
+        color: #7f7f7f;
+        font-size: 12px; }
+  #title .left {
+    float: left;
+    margin-left: 100px; }
+  #title .right {
+    float: right;
+    margin-right: 100px; }
+
+#maxalign {
+  width: 100%;
+  height: auto; }
+  #maxalign #align {
+    width: 600px;
+    margin: 0 auto; }
+    #maxalign #align p {
+      margin: 0 auto;
+      text-align: center; }
+    #maxalign #align .p1 {
+      font-size: 40px; }
+    #maxalign #align .p2 {
+      font-size: 13px;
+      margin: 20px 0px; }
+    #maxalign #align .p3 {
+      font-size: 26px;
+      margin: 20px 0px; }
+    #maxalign #align .form {
+      position: relative;
+      background-color: #fff;
+      height: 300px;
+      margin-top: 5px;
+      padding: 20px 30px 60px 30px;
+      margin: 0 auto;
+      width: 300px; }
+      #maxalign #align .form .title {
+        margin: 0 auto;
+        font-size: 30px; }
+      #maxalign #align .form nav {
+        display: flex;
+        justify-content: space-around; }
+      #maxalign #align .form .one {
+        margin-bottom: 5px; }
+        #maxalign #align .form .one a {
+          color: #000000;
+          display: inline-block;
+          width: 100px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px; }
+      #maxalign #align .form form {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5px; }
+        #maxalign #align .form form input {
+          width: 100%;
+          height: 35px;
+          background-color: #f7f7f7;
+          font-size: 14px;
+          border: none;
+          border-radius: 5px;
+          margin-top: 15px; }
+        #maxalign #align .form form .input2 {
+          width: 100%; }
+        #maxalign #align .form form .a1 {
+          font-size: 12px;
+          color: #7f7f7f;
+          margin-top: 10px; }
+        #maxalign #align .form form .login {
+          width: 100%;
+          height: 38px;
+          background-color: #2ad181;
+          font-size: 15px;
+          border-radius: 5px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700;
+          color: #fff;
+          margin: 20px 0px 10px 0px; }
+        #maxalign #align .form form .tow .a3 {
+          font-size: 12px; }
+        #maxalign #align .form form .tow .a4 {
+          font-size: 12px;
+          color: #2ad181; }
+        #maxalign #align .form form .veri {
+          display: flex; }
+          #maxalign #align .form form .veri .verification {
+            display: inline-block;
+            width: 20%;
+            height: 35px;
+            background-color: #999;
+            font-size: 11px;
+            border-radius: 5px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            margin-left: 15px;
+            padding: 0 7px; }
+      #maxalign #align .form .form2 {
+        position: absolute;
+        top: 100px;
+        left: 30px; }

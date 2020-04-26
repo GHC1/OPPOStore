@@ -1,0 +1,130 @@
+
+        {
+            "second1":[
+                {
+                    "id":"0005",
+                    "name":"Reno 10倍变焦版",
+                    "brief":"骁龙855丨60倍数码变焦",
+                    "price":"¥3699",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201910/201910211010475dad1ccba41db.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010235dad1e1b7ca4e.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg"
+                        ]
+                },
+                {
+                    "id":"0006",
+                    "name":"Reno Ace",
+                    "brief":"65W 闪充丨90Hz 电竞屏",
+                    "price":"¥2999",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201912/201912271012555e056efb7a6a1.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg"
+                    ]
+                  
+                }
+            ],
+            "second2":[
+                {
+                    "id":"0007",
+                    "name":"OPPO Reno",
+                    "brief":"全景屏，VOOC3.0。",
+                    "price":"¥2799",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201912/201912310312285e0af6bc88a95.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg"
+                    ]
+                   
+                },
+                {
+                    "id":"0002",
+                    "name":"Reno2",
+                    "brief":"8G+128G | 视频超级双防抖。",
+                    "price":"¥2999",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201910/201910211010235dad1e1b7ca4e.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg"
+                    ]
+                  
+                }
+            ],
+            "second3":[
+                {
+                    "id":"0004",
+                    "name":"Reno2 Z",
+                    "brief":"8G+128G | 4800万夜拍四摄",
+                    "price":"¥2999",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201911/201911050511405dc145b421b2e.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010235dad1e1b7ca4e.jpg"
+                    ]
+                    
+                },
+                {
+                    "id":"0005",
+                    "name":"Reno2 Z",
+                    "brief":"8G+128G | 4800万夜拍四摄",
+                    "price":"¥2999",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201912/201912271012555e056efb7a6a1.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg"
+                        ]
+                   
+                }
+            ],
+            "second4":[
+                {
+                    "id":"0006",
+                    "name":"A11",
+                    "brief":"8G+128G丨5000mAh大电池",
+                    "price":"¥2999",
+                    "img":[
+                        "https://dsfs.oppo.com/archives/201911/201911050511405dc145b421b2e.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg"
+                        ]
+                   
+                },
+                {
+                    "id":"0007",
+                    "name":"A8",
+                    "brief":"后置AI三摄 | 4230mAh大电池",
+                    "price":"¥2999",
+                    "img":[
+                        " https://dsfs.oppo.com/archives/201912/201912271012555e056efb7a6a1.jpg",
+                        "https://dsfs.oppo.com/archives/201912/201912310312485e0af784c3e25.jpg",
+                        "https://dsfs.oppo.com/archives/201910/201910211010535dad1eed735aa.jpg"
+
+                    ]
+                }
+            ]
+
+        }
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

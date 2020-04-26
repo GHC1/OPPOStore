@@ -1,0 +1,316 @@
+#top {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #fff; }
+  #top #bar {
+    position: absolute;
+    z-index: 3;
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3; }
+    #top #bar #navbar {
+      height: 88px;
+      display: flex;
+      justify-content: center; }
+      #top #bar #navbar li {
+        float: left;
+        height: 100%;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #top #bar #navbar li a {
+          font-size: 13px;
+          color: #000; }
+    #top #bar .icon-oppo {
+      font-size: 80px; }
+    #top #bar .icon-shangcheng {
+      font-size: 25px; }
+    #top #bar #shopping {
+      display: none;
+      border: 0.5px solid #e4e4e4;
+      width: 250px;
+      height: auto;
+      background-color: #fff;
+      position: absolute;
+      right: -130px;
+      top: 80px; }
+      #top #bar #shopping p {
+        width: 100%;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        #top #bar #shopping p a {
+          color: #000; }
+  #top .Combobox1, #top .Combobox2, #top .Combobox3, #top .Combobox4, #top .Combobox5, #top .Combobox6 {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+    display: none; }
+    #top .Combobox1 li, #top .Combobox2 li, #top .Combobox3 li, #top .Combobox4 li, #top .Combobox5 li, #top .Combobox6 li {
+      height: 100%;
+      float: left;
+      display: none; }
+      #top .Combobox1 li a, #top .Combobox2 li a, #top .Combobox3 li a, #top .Combobox4 li a, #top .Combobox5 li a, #top .Combobox6 li a {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 100%; }
+      #top .Combobox1 li img, #top .Combobox2 li img, #top .Combobox3 li img, #top .Combobox4 li img, #top .Combobox5 li img, #top .Combobox6 li img {
+        width: 40%;
+        height: 40%; }
+
+#bottoms {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #fff; }
+  #bottoms #botm {
+    width: 1024px;
+    height: auto; }
+    #bottoms #botm #btop {
+      padding: 40px 0;
+      border-bottom: 1px #999 solid; }
+      #bottoms #botm #btop ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        #bottoms #botm #btop ul li {
+          float: left;
+          margin-left: 20px;
+          color: #000; }
+          #bottoms #botm #btop ul li a {
+            color: #000;
+            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            #bottoms #botm #btop ul li a i {
+              color: #000;
+              font-size: 30px;
+              margin-bottom: 10px; }
+  #bottoms #bcenter {
+    padding-bottom: 30px;
+    border-bottom: 1px #999999 solid;
+    width: 1042px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #bottoms #bcenter .left {
+      float: left;
+      display: flex;
+      justify-content: space-between;
+      width: 62%; }
+      #bottoms #bcenter .left .tui {
+        font-size: 14px;
+        color: #000; }
+      #bottoms #bcenter .left ul li {
+        margin-top: 10px;
+        text-align: center; }
+        #bottoms #bcenter .left ul li a {
+          font-size: 12px;
+          color: #999999; }
+    #bottoms #bcenter #rigth {
+      height: 100%; }
+      #bottoms #bcenter #rigth a {
+        display: inline-block;
+        width: 143px;
+        height: 43px;
+        background: #464646;
+        border-radius: 27px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  #bottoms #bbom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #999999;
+    padding-bottom: 50px; }
+
+#Carousels {
+  width: 100%;
+  height: auto; }
+  #Carousels #Carousel {
+    overflow: hidden;
+    width: 1024px;
+    height: auto;
+    margin: 0 auto; }
+    #Carousels #Carousel .left {
+      float: left;
+      width: 50%;
+      height: 600px;
+      overflow: hidden; }
+      #Carousels #Carousel .left .big ul {
+        width: 1850px;
+        height: 480px;
+        position: relative; }
+        #Carousels #Carousel .left .big ul li {
+          position: absolute;
+          width: 409px;
+          height: 80%;
+          margin-left: 50px;
+          margin-top: 50px;
+          float: left;
+          display: none; }
+          #Carousels #Carousel .left .big ul li img {
+            width: 100%;
+            height: 100%; }
+          #Carousels #Carousel .left .big ul li div {
+            position: absolute;
+            z-index: 2;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            border: solid 1px;
+            display: none; }
+        #Carousels #Carousel .left .big ul .blick {
+          display: block; }
+      #Carousels #Carousel .left .small {
+        width: 100%;
+        height: 20%; }
+        #Carousels #Carousel .left .small ul {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #Carousels #Carousel .left .small ul li {
+            width: 80px;
+            height: 80%;
+            float: left;
+            margin: 0 auto; }
+            #Carousels #Carousel .left .small ul li img {
+              width: 100%;
+              height: 100%; }
+    #Carousels #Carousel .right {
+      float: right;
+      width: 50%;
+      position: relative; }
+      #Carousels #Carousel .right #magnifying {
+        background-color: #fff;
+        position: absolute;
+        border: #000 1px solid;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        display: none; }
+        #Carousels #Carousel .right #magnifying img {
+          position: relative;
+          width: 1227px;
+          height: 1152px; }
+      #Carousels #Carousel .right .one {
+        width: 70%;
+        margin: 0 auto;
+        border-bottom: 1px solid #999999;
+        padding-bottom: 20px;
+        margin-bottom: 25px; }
+        #Carousels #Carousel .right .one a {
+          color: #f79a47; }
+        #Carousels #Carousel .right .one p {
+          color: #000;
+          margin-top: 10px; }
+        #Carousels #Carousel .right .one .p1 {
+          font-size: 22px; }
+        #Carousels #Carousel .right .one .p2 {
+          font-size: 14px; }
+        #Carousels #Carousel .right .one .p3 {
+          font-size: 26px; }
+        #Carousels #Carousel .right .one .p4 {
+          font-size: 14px; }
+      #Carousels #Carousel .right .tow {
+        width: 70%;
+        margin: 0 auto;
+        border-bottom: 1px solid #999999;
+        padding-bottom: 15px; }
+        #Carousels #Carousel .right .tow .p1 {
+          font-size: 12px;
+          color: #464646; }
+        #Carousels #Carousel .right .tow a {
+          display: inline-block;
+          width: 47%;
+          height: 30px;
+          border: 1px #858585 solid;
+          text-align: center;
+          line-height: 30px;
+          margin-left: 5px;
+          margin-top: 20px;
+          font-size: 14px;
+          color: #000; }
+        #Carousels #Carousel .right .tow nav {
+          margin-bottom: 20px; }
+        #Carousels #Carousel .right .tow .nav3 {
+          margin-bottom: 80px;
+          padding: 0px;
+          width: 100%;
+          height: 70px;
+          background-color: #fcfcfc; }
+          #Carousels #Carousel .right .tow .nav3 a {
+            display: inline-block;
+            width: 24%;
+            height: 120px;
+            border: none; }
+            #Carousels #Carousel .right .tow .nav3 a p {
+              font-size: 12px; }
+            #Carousels #Carousel .right .tow .nav3 a img {
+              width: 100%;
+              height: 60%; }
+        #Carousels #Carousel .right .tow .nav4 {
+          margin-top: 20px;
+          display: flex;
+          padding: 0px;
+          width: 195px;
+          height: 44px;
+          border: 1px solid #999999; }
+          #Carousels #Carousel .right .tow .nav4 a {
+            margin: 0px;
+            width: 60px;
+            height: 42px;
+            border: 1px solid #999999;
+            line-height: 42px; }
+      #Carousels #Carousel .right .therr {
+        width: 70%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 30px auto; }
+        #Carousels #Carousel .right .therr a {
+          margin: 0 auto;
+          display: inline-block;
+          width: 45%;
+          height: 45px;
+          font-size: 14px;
+          background-color: #f4f4f4;
+          text-align: center;
+          line-height: 45px;
+          border-radius: 3px; }
+        #Carousels #Carousel .right .therr .a2 {
+          background-color: #059157; }

@@ -1,0 +1,402 @@
+#top{
+    width: 100%;
+    height:auto;
+    // border: 1px solid #000;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin:0 auto;
+    background: #fff;
+    #bar{
+        position: absolute;
+        z-index: 3;
+        margin:0 auto;
+        width: 1024px;
+        // border: 1px solid #000;
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        position: relative;
+        z-index: 3;
+        #navbar{
+            height: 88px;
+            // width: 100%;
+            display: flex;
+            justify-content: center;
+           
+            // justify-content:space-between;
+            li{
+                float: left;
+                height: 100%;
+                margin-left: 50px;
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                a{
+                    font-size: 13px;
+                    color: #000;
+                }
+            }
+        }
+        .icon-oppo{
+            font-size: 80px;
+        }
+        .icon-shangcheng{
+            font-size:25px
+        }
+        #shopping{
+            display: none;
+            border: 0.5px solid #e4e4e4;
+            width: 250px;
+            height: auto;
+            background-color: #fff;
+            position: absolute;
+            // display: none;
+            right: -130px;
+            top: 80px;
+            
+                p{
+                    width: 100%;
+                    text-align: center;
+                    height: 70px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    a{
+                        color: #000;
+                    }
+                }
+            
+        }
+    }
+    .Combobox1{
+        margin-top: 80px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 300px;
+        background-color: #ffffff;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        top: 0;
+        // height: 0;
+       display: none;
+        
+            li{
+                height: 100%;
+                float: left;
+                display: none;
+                a{
+                    display: inline-block;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    width: auto;
+                    height: 100%;
+                    // float: left;
+                }
+                img{
+                    width: 40%;
+                    height: 40%;
+                }
+            }
+        
+          
+           
+    }
+    .Combobox2{
+        @extend.Combobox1;
+    }
+    .Combobox3{
+        @extend.Combobox1;
+    }
+    .Combobox4{
+        @extend.Combobox1;
+    }
+    .Combobox5{
+        @extend.Combobox1;
+    }
+    .Combobox6{
+        @extend.Combobox1;
+    }
+
+    
+    
+}
+
+#bottoms{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // margin-top: 800px;
+    background: #fff;
+    #botm{
+        width: 1024px;
+        height: auto;
+        // background: red;
+        #btop{
+            padding: 40px 0;
+            border-bottom: 1px #999 solid;
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                li{
+                    float: left;
+                    margin-left: 20px;
+                    color: #000;
+                    a{
+                        color: #000;
+                        display: inline-block;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        i{
+                            color: #000;
+                            font-size: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #bcenter{
+        padding-bottom: 30px;
+        border-bottom: 1px #999999 solid;
+        width: 1042px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        .left{
+            float: left;
+            display: flex;
+            justify-content:space-between;
+            width: 62%;
+            .tui{
+                font-size: 14px;
+                color:#000;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    text-align: center;
+                    a{
+                        font-size: 12px;
+                        color: #999999;
+                    }
+                }
+            }
+        }
+        #rigth{
+            // float: right;
+            // width: 36%;
+            height: 100%;
+            a{
+                display: inline-block;
+                width: 143px;
+                height: 43px;
+                
+                background: #464646;
+                border-radius: 27px;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    #bbom{
+        display: flex;
+        justify-content:space-between;
+        font-size: 12px;
+        margin-top: 30px;
+        color: #999999;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+
+// 购物车
+#shopping{
+    width: 100%;
+    min-height: 550px;
+    background-color: #e4e4e4;
+    padding: 60px 0;
+    
+    #spCarousel{
+        margin: 0 auto;
+        width: 1024px;
+        height: auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+      // 购物车【空】中间部分
+        .nulls{
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                color: #666666;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            a{
+                margin-top: 50px;
+                display: inline-block;
+                width:196px;
+                height: 60px;
+                background-color: #05b570;
+                text-align: center;
+                line-height: 60px;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+
+        .list{
+            width: 100%;
+            min-height: 390px;
+            // height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .tite{
+                margin-left: 50px;
+                .form{
+                    h2{
+                        margin:0 auto;
+                    }
+                }
+            }
+            form{
+                div{
+                    width: 100%;
+                    height: auto;
+                    border-bottom: 1px solid #e4e4e4;
+
+                    .nav1{
+                        
+                        height: 60px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        // background-color: rgb(133, 133, 133);
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            margin-top: 70px;
+                            li{
+                                height: 35px;
+                                line-height: 35px;
+                                img{
+                                    width: 70px;
+                                    height: 200%;
+                                    margin-top: -20px;
+                                }
+                            }
+                            
+                            .li4{
+                                width: 150px;
+                                border:1px solid #999999;
+                                a{
+                                    display: inline-block;
+                                    width: 50px;
+                                    height: 32px;
+                                    text-align: center;
+                                    // background-color: #000;
+                                    // line-height: 50px;
+                                }
+                                
+                                
+                                span{
+                                    display: inline-block;
+                                    height: 32px;
+                                    width: 40px;
+                                    border: none;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                    .nav2{
+                        margin-left: 250px;
+                        height: 60px;
+                        display: flex;
+                        align-items: center;
+                        a{
+                            border: #f79a47 1px solid;
+                            font-size: 12px;
+                            color: #f79a47;
+                            padding: 2px;
+
+                        }
+                        img{
+                            margin: 0 10px;
+                        }
+                        p{
+                            font-size: 13px;
+                            color: #acacac;
+                        }
+                    }
+                }
+                
+            }
+            .botton{
+                margin-top: 50px;
+                border: none;
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                .p1{
+                    font-size: 13px;
+                }
+                p{
+                    margin-left: 30px;
+                }
+                .close{
+                    margin-right: 30px;
+                    a{
+                        margin-top: 20px;
+                        display: block;
+                        width: 196px;
+                        height: 60px;
+                        background-color: #05b570;
+                        text-align: center;
+                        line-height: 60px;
+                        border-radius: 5px;
+                    }
+                    span{
+                        font-size: 13px;
+                        color: #999;
+                        }     
+                        .price{
+                            color: #000000;
+                            font-size: 30px;
+                        }                   
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    

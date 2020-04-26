@@ -1,0 +1,276 @@
+#top {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #fff; }
+  #top #bar {
+    position: absolute;
+    z-index: 3;
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3; }
+    #top #bar #navbar {
+      height: 88px;
+      display: flex;
+      justify-content: center; }
+      #top #bar #navbar li {
+        float: left;
+        height: 100%;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #top #bar #navbar li a {
+          font-size: 13px;
+          color: #000; }
+    #top #bar .icon-oppo {
+      font-size: 80px; }
+    #top #bar .icon-shangcheng {
+      font-size: 25px; }
+    #top #bar #shopping {
+      display: none;
+      border: 0.5px solid #e4e4e4;
+      width: 250px;
+      height: auto;
+      background-color: #fff;
+      position: absolute;
+      right: -130px;
+      top: 80px; }
+      #top #bar #shopping p {
+        width: 100%;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        #top #bar #shopping p a {
+          color: #000; }
+  #top .Combobox1, #top .Combobox2, #top .Combobox3, #top .Combobox4, #top .Combobox5, #top .Combobox6 {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+    display: none; }
+    #top .Combobox1 li, #top .Combobox2 li, #top .Combobox3 li, #top .Combobox4 li, #top .Combobox5 li, #top .Combobox6 li {
+      height: 100%;
+      float: left;
+      display: none; }
+      #top .Combobox1 li a, #top .Combobox2 li a, #top .Combobox3 li a, #top .Combobox4 li a, #top .Combobox5 li a, #top .Combobox6 li a {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 100%; }
+      #top .Combobox1 li img, #top .Combobox2 li img, #top .Combobox3 li img, #top .Combobox4 li img, #top .Combobox5 li img, #top .Combobox6 li img {
+        width: 40%;
+        height: 40%; }
+
+#bottoms {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #fff; }
+  #bottoms #botm {
+    width: 1024px;
+    height: auto; }
+    #bottoms #botm #btop {
+      padding: 40px 0;
+      border-bottom: 1px #999 solid; }
+      #bottoms #botm #btop ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        #bottoms #botm #btop ul li {
+          float: left;
+          margin-left: 20px;
+          color: #000; }
+          #bottoms #botm #btop ul li a {
+            color: #000;
+            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            #bottoms #botm #btop ul li a i {
+              color: #000;
+              font-size: 30px;
+              margin-bottom: 10px; }
+  #bottoms #bcenter {
+    padding-bottom: 30px;
+    border-bottom: 1px #999999 solid;
+    width: 1042px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #bottoms #bcenter .left {
+      float: left;
+      display: flex;
+      justify-content: space-between;
+      width: 62%; }
+      #bottoms #bcenter .left .tui {
+        font-size: 14px;
+        color: #000; }
+      #bottoms #bcenter .left ul li {
+        margin-top: 10px;
+        text-align: center; }
+        #bottoms #bcenter .left ul li a {
+          font-size: 12px;
+          color: #999999; }
+    #bottoms #bcenter #rigth {
+      height: 100%; }
+      #bottoms #bcenter #rigth a {
+        display: inline-block;
+        width: 143px;
+        height: 43px;
+        background: #464646;
+        border-radius: 27px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  #bottoms #bbom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #999999;
+    padding-bottom: 50px; }
+
+#shopping {
+  width: 100%;
+  min-height: 550px;
+  background-color: #e4e4e4;
+  padding: 60px 0; }
+  #shopping #spCarousel {
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px; }
+    #shopping #spCarousel .nulls {
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #shopping #spCarousel .nulls p {
+        color: #666666;
+        font-size: 14px;
+        margin-bottom: 10px; }
+      #shopping #spCarousel .nulls a {
+        margin-top: 50px;
+        display: inline-block;
+        width: 196px;
+        height: 60px;
+        background-color: #05b570;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 5px;
+        color: #fff; }
+    #shopping #spCarousel .list {
+      width: 100%;
+      min-height: 390px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      #shopping #spCarousel .list .tite {
+        margin-left: 50px; }
+        #shopping #spCarousel .list .tite .form h2 {
+          margin: 0 auto; }
+      #shopping #spCarousel .list form div {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #e4e4e4; }
+        #shopping #spCarousel .list form div .nav1 {
+          height: 60px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          #shopping #spCarousel .list form div .nav1 ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 70px; }
+            #shopping #spCarousel .list form div .nav1 ul li {
+              height: 35px;
+              line-height: 35px; }
+              #shopping #spCarousel .list form div .nav1 ul li img {
+                width: 70px;
+                height: 200%;
+                margin-top: -20px; }
+            #shopping #spCarousel .list form div .nav1 ul .li4 {
+              width: 150px;
+              border: 1px solid #999999; }
+              #shopping #spCarousel .list form div .nav1 ul .li4 a {
+                display: inline-block;
+                width: 50px;
+                height: 32px;
+                text-align: center; }
+              #shopping #spCarousel .list form div .nav1 ul .li4 span {
+                display: inline-block;
+                height: 32px;
+                width: 40px;
+                border: none;
+                text-align: center; }
+        #shopping #spCarousel .list form div .nav2 {
+          margin-left: 250px;
+          height: 60px;
+          display: flex;
+          align-items: center; }
+          #shopping #spCarousel .list form div .nav2 a {
+            border: #f79a47 1px solid;
+            font-size: 12px;
+            color: #f79a47;
+            padding: 2px; }
+          #shopping #spCarousel .list form div .nav2 img {
+            margin: 0 10px; }
+          #shopping #spCarousel .list form div .nav2 p {
+            font-size: 13px;
+            color: #acacac; }
+      #shopping #spCarousel .list .botton {
+        margin-top: 50px;
+        border: none;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between; }
+        #shopping #spCarousel .list .botton .p1 {
+          font-size: 13px; }
+        #shopping #spCarousel .list .botton p {
+          margin-left: 30px; }
+        #shopping #spCarousel .list .botton .close {
+          margin-right: 30px; }
+          #shopping #spCarousel .list .botton .close a {
+            margin-top: 20px;
+            display: block;
+            width: 196px;
+            height: 60px;
+            background-color: #05b570;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 5px; }
+          #shopping #spCarousel .list .botton .close span {
+            font-size: 13px;
+            color: #999; }
+          #shopping #spCarousel .list .botton .close .price {
+            color: #000000;
+            font-size: 30px; }

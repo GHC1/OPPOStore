@@ -1,0 +1,69 @@
+{
+    "one":[
+        {
+            "id":"0005",
+            "name":"Reno3 Pro",
+            "brief":"5G 视频手机。",
+            "price":"¥3999",
+            "img":[ 
+                    "https://dsfs.oppo.com/archives/201912/201912271112535e057f25778b8.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912271112295e057fc1db08d.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912271112355e0580b7a75e1.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912310612455e0b1e2d94d1f.jpg"
+
+                ]
+           
+        },
+        {
+            "pname":"Reno3 Pro 8G+128G 日出印象",
+            "pbriefa":"【新品开售 | 享6期免息 | 赠蓝牙音箱 |  加价购真无线耳机立减80】",
+            "pbriefb":"高通骁龙765G，视频超级双防抖，厚度7.7mm，90Hz高感曲面屏。",
+            "pbriefc":"Reno3火热开售中 >>>",
+            "price":"¥3399",
+            "pimgD":[
+                "https://dsfs.oppo.com/archives/201912/201912270812445e05faa082c2c.png",
+                "https://dsfs.oppo.com/archives/201912/201912091012145dedac168d73a.png",
+                "https://dsfs.oppo.com/archives/201912/201912091012175dedac192bbf1.png",
+                "https://dsfs.oppo.com/archives/201912/201912270812505e05faa6359b3.png"
+            ],
+            "pimgX":[
+                "https://dsfs.oppo.com/archives/201912/_thumbnail/thumbnail_201912270812445e05faa082c2c.png",
+                "https://dsfs.oppo.com/archives/201912/_thumbnail/thumbnail_201912091012145dedac168d73a.png",
+                "https://dsfs.oppo.com/archives/201912/_thumbnail/thumbnail_201912091012175dedac192bbf1.png",
+                "https://dsfs.oppo.com/archives/201912/_thumbnail/thumbnail_201912270812505e05faa6359b3.png"
+            ]
+            
+        }
+    ],
+    "tow":[
+        {
+            "id":"0006",
+            "name":"OPPO Reno3",
+            "brief":"一体化双模 5G。",
+            "price":"¥3399",
+            "img":[
+                    "https://dsfs.oppo.com/archives/201912/201912271112595e057ab7f214a.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912271112095e057b758cb94.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912271112095e057b758cb94.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912271112585e057c5a399e0.jpg"
+                ]
+            
+        }
+        
+    ],
+    "three":[
+        {
+            "id":"0007",
+            "name":"A91",
+            "brief":"4800 万超广角微距四摄。",
+            "price":"¥1999",
+            "img":[
+                    "https://dsfs.oppo.com/archives/201912/201912310612295e0b1c3ddcb43.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912310612185e0b1ce67147f.jpg",
+                    "https://dsfs.oppo.com/archives/201912/201912310612455e0b1e2d94d1f.jpg"
+                ]
+            
+        }
+        
+    ]
+}
